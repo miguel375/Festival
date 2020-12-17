@@ -1,0 +1,39 @@
+body{
+    background-color:#EBEBD5;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+
+h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    max-width : 1080px;
+    size: 20cm;
+    font-size: 35pt;
+    margin: 5px;
+    margin-top: 7px;
+    text-align: center;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+img.escenarioLuces{
+
+    display:block;
+    margin:auto;   
+}
+
+p{
+    text-align: justify;
+}
+
+.soñar{
+
+    font-size: 14pt;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
