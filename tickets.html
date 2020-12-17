@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FESTIVAL HELMANTIKA - SALAMANCA</title>
+    <link rel="stylesheet" href="css/tickets.css">
+</head>
+
+<body>
+    
+    <h1> FESTIVAL HELMANTIKA  SALAMANCA</h1>
+    
+    
+    <nav>
+        <ul>
+            <li ><a href="index.html">INICIO</a></li>
+            <li><a href="tickets.html">TICKETS</a></li>
+            <li><a href=info.html>INFO</a></li>
+            <li><a href=cartel.html>CARTEL</a></li>
+            <li><a href=top.html>TOP 10</a></li>
+            <li><a href=contacto.html>CONTACTO Y FAQ</a></li>
+        </ul>
+    </nav>
+
+    <h2>TICKETS</h2> 
+
+    <p class="pandemia19"> Actualmente por motivo de la pandemia originada por COVID-19, las entradas no estan a la venta.<br>
+        Puede reservar su entrada, para la próxima puesta en venta en Enero de 2021.<br>
+        La fechas de celebración del festival son del 7 al 10 de agosto.
+    </p>
+    <br>
+    <p>Política de menores:  Los menores que tienen 16 y 17 años deben presentar la autorización de menores firmada.</p>
+    <p>+ Autorización para menores:</p>
+    <a href="/archivosDescarga/Autorizacion-Menores.pdf" download="Autorizacion-menores">
+        Descargar autorización:
+    </a>
+
+
+    <form>
+   <br> <fieldset>
+        <legend>DATOS PERSONALES</legend>
+
+        <br>
+        <label for="nombre"> Nombre: </label>
+        <input type="text" id="nombre">
+        <label for="apellidos"> Apellidos: </label>
+        <input type="text" id="apellidos">
+        <br>
+     
+        <p>Fecha de nacimiento:</p>
+        <input type="date">
+        <br>
+
+        <p>Correo electrónico:</p>
+        <input type="email">
+
+        <p>Télefono:<p>
+        <input type="tel" maxlength="9"> 
+
+    </fieldset>
+
+    <fieldset>
+        <legend>ENTRADAS</legend>
+    
+        <label for="entradas">Número de entradas:</label>
+        <select name="entradas" id="entradas">
+    
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+    
+        </select>
+
+        <br>
+        <p> Desea incluir seguro de cancelación por 14,99€, aplicable a todas las entradas :</p>
+        <input type="radio" name="seguro" value="si">
+        <label for="">Si</label>
+    
+        <input type="radio" name="seguro" value="ni">
+        <label for="">No</label>
+        <br>
+    </fieldset>
+    <br>
+    <input type="submit" value="RESERVA">
+    </form>
+    <p class="atencionAviso"> Cuando las entradas salgan a la venta recibirá un correo electrónico</p>
+    
+</body>
+</html>
