@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/cambioNombre.css">
     <title>FESTIVAL HELMANTIKA - SALAMANCA</title>
 </head>
 
 <body>
     
-    <header> FESTIVAL HELMANTIKA - SALAMANCA</header><br>
+    <h1> FESTIVAL HELMANTIKA - SALAMANCA</h1><br>
 
     <form>
         <fieldset>
-            <legend>CAMBIO DE NOMBRE</legend>
+            <legend class="cambioNombre">CAMBIO DE NOMBRE</legend>
             <p>Introduce tus datos para buscar tu entrada: se reenviara al  correo electrónico</p>
             <br>
             <label for="nombre"> Nombre: </label><br>
@@ -25,7 +26,7 @@
             <input type="email">
             <br>
             
-            <br><label for="NIF">NIF:</label>
+            <br><label for="NIF">NIF:</label><br>
             <input type="text" id="NIF" maxlength="9">
             <br>
 
@@ -42,6 +43,6 @@
         <input type="submit" value="ACEPTAR">
         </form> 
 
-        <p>Recibira una confirmación con los pasos a seguir en su email en breves.</p>  
+        <p class="confirm">Recibira una confirmación con los pasos a seguir en su email en breves.</p>  
 </body>
 </html>
