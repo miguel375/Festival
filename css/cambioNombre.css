@@ -1,0 +1,25 @@
+body{
+    background-color:#EBEBD5;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    max-width : 1080px;
+    size: 20cm;
+    font-size: 29pt;
+    margin: 5px;
+    margin-top: 7px;
+    
+}
+.cambioNombre{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18pt;
+}
+
+.confirm{
+
+    font-size: 26pt;
+
+}
